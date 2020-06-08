@@ -1,0 +1,87 @@
+:root{
+    --principal:#2C3140;
+    --light:#ffffff;
+}
+
+.bg-primary{ background-color: var(--principal) !important;}
+
+body{
+    overflow: hidden;
+    font-weight: 300;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#sidebar-container{
+min-height: 100vh;
+padding: 10px;
+}
+
+.logo{
+padding: 0.875rem 1.25rem;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    width: 18rem;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom:5rem;
+}
+
+#compra{
+    display: flex;
+    justify-content: space-between;
+}
+
+#descrip{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.objetos{
+    margin: 5px;
+}
+
+#docu{
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-color: #9AFFA1;
+    border-radius: 5px;
+}
+
+#fac{
+    padding: 20px;
+}
+.green{
+    padding: 10px;
+    height: 40px;
+    background-color: #9AFFA1;
+}
+
+.selectpicker{
+    width: 350px;
+}
+#inputs{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 150px;
+}

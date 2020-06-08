@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/6de66c10af.js" crossorigin="anonymous"></script>
+    <!--Main CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+  <body>
+    <div class="d-flex">
+        <div id="sidebar-container" class="bg-primary">
+          <div class="logo">
+              <h1 class="text-light font-weight-bold">SISFAC</h1>
+          </div>
+          <div class="menu">
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-desktop mr-2 lead"></i>Inicio</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-file-invoice mr-2 lead"></i>Mantenimiento</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-signal mr-2 lead"></i>Ventas</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-pencil-alt mr-2 lead"></i>Compras</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-signal mr-2 lead"></i>Reportes</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-database mr-2 lead"></i>Backup</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-tools mr-2 lead"></i>Configuracion</a>
+              <a href="#"class="d-block text-light p-3"><i class="fas fa-sign-out-alt mr-2 lead"></i>Cerrar  Sesion</a>
+          </div>
+        </div>
+
+        <div class="w-100">
+          <div id="main">
+            <div id="admin"><p class="p-3">admin<i class="fas fa-user p-3"></i></p> </div>
+            <div id="out"><p>Cerrar Secion<i class="fas fa-sign-out-alt p-3"></i></p></div>
+          </div>
+
+          <div id="content">
+              <section class="py-3">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-9 border-bottom">
+                        <h2>Nueva Compra</h2>
+                      </div>
+                    </div>
+              </section>
+
+              <section>
+                <div id ="compra" class="container">
+                  <div id="descrip">
+                    <div class="objetos">
+                      <p>Fecha:</p>
+                      <input type="text" name="fecha" id="fecha" placeholder="08-06-2020" disabled>
+                    </div>
+                    <div class="objetos">
+                      <p>Proveedor(es):</p>
+                      <input type="text" name="fecha" id="1" >
+                    </div>
+                    <div class="objetos">
+                      <p>Codigo de Barra:</p>
+                      <input type="text" name="fecha" id="2" >
+                    </div>
+                    <div class="objetos">
+                      <p>Descripcion:</p>
+                      <input type="text" name="fecha" id="3" disabled>
+                    </div>
+                    <div class="objetos">
+                      <p>Presentacion:</p>
+                      <input type="text" name="fecha" id="4" disabled>
+                    </div>
+                    <div class="objetos">
+                      <p>Precio:</p>
+                      <input type="text" name="fecha" id="5" disabled>
+                    </div>
+                  </div>
+
+                  <div id="docu">
+                    <div id="doc"  class="green">
+                      <p>Tipo documento</p>
+                    </div>
+                    <div id="fac">
+                      <select class="selectpicker">
+                        <option>Factura</option>
+                        <option>Boleta</option>
+                      </select>
+                    </div>
+                    <div id="inputs">
+                      <input type="text" placeholder="001" class="input">
+                      <input type="text" placeholder="0000000001" class="input">
+                    </div>
+                    
+                  </div>
+                </div>
+              </section>
+          </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
